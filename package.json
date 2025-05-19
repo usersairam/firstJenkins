@@ -1,0 +1,27 @@
+{
+  "name": "firstjenkins",
+  "version": "1.0.0",
+  "description": "sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js --env=production",
+    "start": "webpack --watch --env development"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/nodemon": "^1.19.6",
+    "dotenv": "^16.5.0",
+    "dotenv-webpack": "^8.1.0",
+    "express": "^5.1.0",
+    "nodemon-webpack-plugin": "^4.8.2",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
+    "webpack": "^5.99.8",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^6.0.1"
+  }
+}
