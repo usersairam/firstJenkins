@@ -8,4 +8,4 @@ run npm install
 
 copy dist/ /src
 
-CMD ['node', 'index.bundle.js']
+CMD ["node", "index.bundle.js"]
