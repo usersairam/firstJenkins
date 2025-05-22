@@ -7,7 +7,7 @@ app.use(express.json());
 
 app.listen(3000, () => console.log('System is running at 3020'));
 
-app.get('/health-check', (req, res) => res.status(200).json({status:200, message: "Node server is up and running smooth!!"}));
+app.get('/health-check', (req, res) => res.status(200).json({status:200, message: "Node server is up. Server is running!!"}));
 
 
 export default app
