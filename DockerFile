@@ -1,0 +1,11 @@
+from node:16-alpine
+
+workdir src/
+
+copy package*.json ./
+
+run npm install
+
+copy dist/ /src
+
+CMD ['node', 'index.bundle.js']
